@@ -1,0 +1,16 @@
+{
+  "private": true,
+  "scripts": {
+    "dev": "nuxi dev",
+    "build": "nuxi build",
+    "start": "node .output/server/index.mjs"
+  },
+  "devDependencies": {
+    "nuxt3": "latest",
+    "@nuxtjs/i18n": "^7.2.0"
+  },
+  "dependencies": {
+    "tailwind-config-viewer": "^1.6.2",
+    "tailwindcss": "^2.2.19"
+  }
+}
